@@ -43,7 +43,7 @@ export default function HeroSection() {
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
-            className="text-7xl md:text-9xl font-black text-lime-400 leading-none mb-2"
+            className="text-7xl md:text-9xl font-black text-green-600 leading-none mb-2"
             style={{ fontFamily: 'Impact, Arial Black, sans-serif', textAlign: 'left', marginLeft: '0' }}
           >
             KHAT
@@ -70,7 +70,7 @@ export default function HeroSection() {
                 ease: 'easeInOut',
               },
             }}
-            className="text-7xl md:text-9xl font-black text-yellow-300 leading-none mb-2"
+            className="text-7xl md:text-9xl font-black text-purple-600 leading-none mb-2"
             style={{ fontFamily: 'Impact, Arial Black, sans-serif', textAlign: 'center' }}
           >
             EATING
