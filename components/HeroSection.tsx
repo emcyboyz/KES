@@ -87,7 +87,7 @@ export default function HeroSection() {
           >
             <p className="text-yellow-100 text-lg leading-relaxed mb-4">
               Born in the trenches. Endlessly chewing
-              <span className="text-[#39ff14] animate-pulse">
+              <span className="text-[#39ff14] ">
               <a href="https://www.thinkglobalhealth.org/article/somalilands-khat-conundrum#:~:text=Khat%20is%20a%20widely%20consumed%20recreational%20drug%20in%20the%20Middle%20East%20and%20the%20Horn%20of%20Africa%2C%20derived%20from%20the%20leaves%20of%20the%20Catha%20edulis.%20Chemically%2C%20it%20is%20structurally%20similar%20to%20amphetamine%2C%20noradrenaline%2C%20and%20MDMA%20(ecstasy)" target='blank' >  KHAT. </a>
 </span>
   Sleep Deprived. Just eternal wire. </p>
