@@ -133,7 +133,7 @@ export default function AboutSection() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.6 }}
                 >
-                  Binge chewing (more than two bundles a day) is also strongly correlated with the onset of paranoia and hallucinations. ✨
+                  Binge chewing (more than two bundles a day) is also strongly correlated with the onset of paranoia and hallucinations. <a href="https://www.thinkglobalhealth.org/article/somalilands-khat-conundrum#:~:text=GOVERNANCE-,Somaliland%27s%20Khat%20Conundrum,its%20rising%20use%20could%20contribute%20to%20youth%20unemployment%20and%20mental%20illness,-A%20man%20chews" target="_blank"> Read more...✨ </a>  
                 </motion.p>
 
                 <motion.p
