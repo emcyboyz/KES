@@ -16,7 +16,7 @@ export default function Navbar() {
     { id: 'chart', label: 'CHART' },
   ];
 
-  // Scroll spy (same as before)
+  // Scroll spy (unchanged)
   useEffect(() => {
     const sections = navItems.map((item) => document.getElementById(item.id));
 
@@ -56,15 +56,14 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-md border-b border-lime-400/20"
     >
       <div className="px-4 sm:px-6 lg:px-8">
-        {/* Changed to justify-center to center everything */}
         <div className="flex items-center justify-center h-16">
           <div className="flex items-center space-x-8">
-            {/* Nav Links */}
+            {/* Nav Links - ONLY text size increased */}
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`text-sm font-bold tracking-wider transition-all duration-300 hover:text-lime-400 hover:drop-shadow-[0_0_8px_rgba(132,204,22,0.8)] ${
+                className={`text-lg md:text-xl lg:text-2xl font-bold tracking-wider transition-all duration-300 hover:text-lime-400 hover:drop-shadow-[0_0_8px_rgba(132,204,22,0.8)] ${
                   activeSection === item.id
                     ? 'text-lime-400 drop-shadow-[0_0_12px_rgba(132,204,22,1)]'
                     : 'text-yellow-100'
@@ -75,7 +74,7 @@ export default function Navbar() {
               </button>
             ))}
 
-            {/* Khat Mode Button - now part of the centered group */}
+            {/* Khat Mode Button - unchanged */}
             <motion.button
               onClick={toggleKhatMode}
               whileHover={{ scale: 1.05 }}
